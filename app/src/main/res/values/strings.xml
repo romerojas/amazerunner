@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Amaze Runner</string>
+    <string name="logo">logo</string>
+    <string name="login">Amaze Runner</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="signup_now">Signup</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_now">Login</string>
+    <string name="email">Email</string>
+    <string name="spassword">Password</string>
+    <string name="signup_button">Register</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="resetpwd">Reset Password</string>
+    <string name="submit_btn">Submit</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="guest">Guest</string>
+    <string name="startBtn">Continue</string>
+    <string name="adjust_speed">Adjust Speed</string>
+    <string name="logodesc">logo</string>
+    <string name="navHome">Home</string>
+    <string name="navRun">Activity</string>
+    <string name="navLogout">Logout</string>
+    <string name="navProfile">Profile</string>
+    <string name="access_token">pk.eyJ1Ijoib25pZGVtb3JlaiIsImEiOiJjam1zbWRxaHAwM3JjM3BzOHdpaG1hMGZpIn0.GzVFj1vdyR7JkiLeOeIfTQ</string>
+    <string name="mapsbtn">Start Running</string>
+    <string name="start">Start</string>
+</resources>

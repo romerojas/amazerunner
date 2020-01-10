@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "615049230558",
+    "firebase_url": "https://arunner-2e6e0.firebaseio.com",
+    "project_id": "arunner-2e6e0",
+    "storage_bucket": "arunner-2e6e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615049230558:android:04d5b89b352b02c3",
+        "android_client_info": {
+          "package_name": "rome.je"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615049230558-n43pupg6es20ffq3rvnnrlu504mu5ccc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rome.je",
+            "certificate_hash": "a99ce6d7f9b45e54f46c7f724578b2cd44430f44"
+          }
+        },
+        {
+          "client_id": "615049230558-igu2v1on9k21727uj5n7fm09ts174cqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrTEAeBuU4_Rx2B53m144OOhzdaroxqJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615049230558-igu2v1on9k21727uj5n7fm09ts174cqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapBox">
+
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomnav"
+        mapbox:mapbox_cameraTargetLat="16.408645"
+        mapbox:mapbox_cameraTargetLng="120.598073"
+        mapbox:mapbox_cameraZoom="15"
+        mapbox:mapbox_styleUrl="mapbox://styles/mapbox/outdoors-v9" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/buttonstyle2"
+        android:elegantTextHeight="false"
+        android:enabled="false"
+        android:text="@string/start"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.Design.Counter"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/black"
+        app:itemIconTint="@color/navcolor"
+        app:itemTextColor="@color/navcolor"
+        app:menu="@menu/menuitems"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_above="@+id/mapView"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:scaleType="fitXY"-->
+        <!--app:srcCompat="@drawable/white" />-->
+
+
+</RelativeLayout>
